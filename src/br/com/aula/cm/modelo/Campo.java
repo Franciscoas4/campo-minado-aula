@@ -94,7 +94,7 @@ public class Campo {
 		return coluna;
 	}
 	
-	boolean objetivoalcancado() {
+	boolean objetivoAlcancado() {
 		boolean desvendado = !minado && aberto;
 		boolean protegido = minado && marcado;
 		return desvendado || protegido;
